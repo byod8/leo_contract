@@ -1,7 +1,12 @@
 // The 'leo_contract' program.
 program leo_contract.aleo {
-    transition main(public a: u32, b: u32) -> u32 {
+    transition add_u32(public a: u32, b: u32) -> u32 {
         let c: u32 = a + b;
+        return c;
+    }
+
+    transition sub_u32(public a: u32, b: u32) -> u32 {
+        let c: u32 = a - b;
         return c;
     }
 }
