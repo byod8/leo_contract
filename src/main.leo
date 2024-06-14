@@ -9,4 +9,6 @@ program leo_contract.aleo {
         let c: u32 = a - b;
         return c;
     }
+
+   // TODO: how to build a private game?
 }
